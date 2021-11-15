@@ -1,0 +1,98 @@
+.Home {
+    //导航栏
+    padding: 46px 0;
+    .user-title {
+        display: flex;
+
+        .time {
+            font-size: 22px;
+        }
+
+        .user-name {
+            margin-left: 5px;
+            font-size: 18px;
+
+        }
+    }
+
+    .van-nav-bar__right{
+        padding: 0;
+    }
+
+    .van-search {
+        padding: 0 10px 0  0;
+    }
+
+    .van-field__left-icon .van-icon {
+        font-size: 20px;
+        color: black;
+    }
+    //商品区域
+    .procucts-box{
+        padding: 10px;
+        background-color: #f7f7f5;
+    }
+    //轮播图
+    .banner-box{
+        border-radius: 15px;
+        overflow: hidden;
+        .van-swipe-item{
+            position: relative;
+            .img-name{
+                position: absolute;
+                left: 15px;
+                bottom: 15px;
+                background-color: rgba(255, 255, 255, 0.6);
+                font-size: 18px;
+                padding: 6px 15px ;
+                border-radius: 20px;
+            }
+        }
+    }
+    //热门推荐
+    .procuts-content{
+       
+        .pro-title{
+            margin: 10px 0;
+            background-color: #0b34ba;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bolder;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .pro-item-box{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .pro-item{ 
+            width: calc(50% - 25px);
+            text-align: left;
+            background-color: white;
+            margin: 0 10px 10px 0;
+            padding: 10px;
+            &:nth-child(2n){
+                margin-right: 0;
+            }
+            .pro-img{
+                border-radius: 15px;
+                overflow: hidden;
+            }
+            .pro-name{
+                font-size: 18px;
+                font-weight: bolder;
+                margin:8px 0;
+            }
+            .pro-enname{
+                color: #989898;
+                margin-bottom: 6px;
+            }
+            .pro-price{
+                color: #0b34ba;
+                font-weight: bolder;
+                font-size: 14px;
+            }
+        }
+    }
+}   

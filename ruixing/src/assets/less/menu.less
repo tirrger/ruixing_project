@@ -1,0 +1,62 @@
+.Menu{
+    padding: 50px 0;
+    background-color: #f9fbf8;
+    text-align: left;
+    .van-nav-bar__left{
+        width: 100%;
+        padding:0;
+    }
+    .van-search{
+        width: 100%;
+    }
+    .pro-type{
+        display: flex;
+    }
+    .type-item{
+        width: 25%;
+        height: 80px;
+        color:black;
+        text-align: center;
+
+        font-weight: bolder;
+        img{
+            width: 45px;
+        }
+        .active{
+            color:#0b34ba;
+        }
+    }
+    .pro-type-box{
+        padding: 10px;
+    }
+    .pro-item{
+        display: flex;
+        background-color: white;
+        margin-top: 15px;
+        padding: 10px;
+        &:first-child{
+            margin-top: 0;
+        }
+        .pro-img{
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .pro-info{
+            width: calc(100% - 60px);
+            margin-left: 15px;
+            .name{
+                margin-top: 10px;
+                font-size: 15px;
+                font-weight: bolder;
+            }
+        }
+        .info-price{
+            line-height: 60px;
+            color: #0b34ba;
+            font-weight: bolder;
+        }
+    }
+}
